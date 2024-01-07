@@ -1,0 +1,64 @@
+body{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    top: 0;
+}
+
+.nav-item{
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.form-control{
+    min-width: 100px;
+}
+
+.box{
+    margin-top: 10vh;
+}
+
+.card{
+    overflow: hidden;
+}
+
+.btn.bg-success{
+    width: 60%;
+}
+
+#offerta-della-settimana,
+#welcome-summer{
+    scroll-margin-top: 100px;
+}
+
+#best-offer{
+    background: #003f05;
+}
+
+.img-fluid{
+    min-width: 100%;
+    max-height: 60vh;
+}
+
+#contact-us{
+    border: 1px solid #fff;
+    background: transparent;
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+#contact-us:hover{
+    opacity: 1;
+}
+
+div.div-collassa{
+    transition: 0.2s ease;
+    opacity: 1;
+    height: auto;
+}
+
+div.div-collassa.hide{
+    height: 0;
+    opacity: 0;
+}
